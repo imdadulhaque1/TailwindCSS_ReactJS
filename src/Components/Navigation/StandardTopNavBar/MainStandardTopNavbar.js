@@ -3,9 +3,13 @@ import StandardTopNavBar from './StandardTopNavBar'
 
 const MainStandardTopNavbar = () => {
     return (
-        <div className='bg-slate-300 w-full h-screen'>
+        <>
             <StandardTopNavBar />
-        </div>
+            <div className='bg-violet-200 w-full h-screen'>
+
+            </div>
+        </>
+
     )
 }
 
